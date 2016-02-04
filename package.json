@@ -25,5 +25,8 @@
   "dependencies": {
     "express": "^4.13.4",
     "useragent": "^2.1.8"
+  },
+  "engines": {
+    "node": "4.2.4"
   }
 }
