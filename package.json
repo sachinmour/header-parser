@@ -1,0 +1,28 @@
+{
+  "name": "header-parser",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sachinmour/header-parser.git"
+  },
+  "keywords": [
+    "freecodecamp",
+    "header",
+    "parser",
+    "microservice"
+  ],
+  "author": "Sachin Mour",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sachinmour/header-parser/issues"
+  },
+  "homepage": "https://github.com/sachinmour/header-parser#readme",
+  "dependencies": {
+    "express": "^4.13.4"
+  }
+}
