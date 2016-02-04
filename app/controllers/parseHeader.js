@@ -12,10 +12,9 @@ var parseHeader = function(req) {
         req.socket.remoteAddress ||
         req.connection.socket.remoteAddress;
     var language = req.headers['accept-language'];
-    
-    object.ip_address = ip;
+    object.ip_address = ip.split(',')[0];
     object.operating_system = os;
-    object.language = language;
+    object.language = language.split(',')[0];
     
     return object;
 };
